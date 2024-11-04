@@ -7,7 +7,7 @@ import pl.testeroprogramowania.pages.HomePage;
 
 public class LogInTest extends BaseTest {
 
-
+//DB on page is self-cleaning. test1@test.com account needs to be registered again
     @Test
     public void logInTest() throws InterruptedException {
         int random = (int) (Math.random() * 1000);
